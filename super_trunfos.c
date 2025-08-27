@@ -3,14 +3,14 @@
 int main(){
     //carta:1//
     char Estado;
-    char Codigo[5];
+    char Codigo[5];                      //Primera etapa, montando os dados principais do jogo//
     char Cidade[19];
     int Populacao;
     float Area;
     float PIB;
     int PontosTuristicos;
 
-    printf("Digite o Estado: ");
+    printf("Digite o Estado: ");         //Adquirindo informações com o scanf//
     scanf("%c", &Estado);
 
     printf("Digite o Codigo: ");
@@ -33,7 +33,7 @@ int main(){
 
     printf("Carta: 1\n");
     printf("Estado: %c\n", Estado);
-    printf("Codigo: %s\n", Codigo);
+    printf("Codigo: %s\n", Codigo);                        //e finalmente ultilizando o printf para demonstrar todos as informações preenchidas//
     printf("Cidade: %s\n", Cidade);
     printf("Populacao: %i\n", Populacao);
     printf("Area: %.2f\n", Area);
@@ -42,3 +42,5 @@ int main(){
 
     return 0;
 }
+
+   
